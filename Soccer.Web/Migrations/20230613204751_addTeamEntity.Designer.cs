@@ -9,8 +9,8 @@ using Soccer.Web.Data;
 namespace Soccer.Web.Migrations
 {
     [DbContext(typeof(DataContext))]
-    [Migration("20230530212200_AddTeamEntity")]
-    partial class AddTeamEntity
+    [Migration("20230613204751_addTeamEntity")]
+    partial class addTeamEntity
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
@@ -34,7 +34,7 @@ namespace Soccer.Web.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("Teams");
+                    b.ToTable("TeamEntity");
                 });
 #pragma warning restore 612, 618
         }

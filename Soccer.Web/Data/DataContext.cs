@@ -9,6 +9,7 @@ namespace Soccer.Web.Data
         {
         }
 
+        
         public DbSet<TeamEntity> Teams { get; set; }
     }
 }

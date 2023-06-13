@@ -5,6 +5,15 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="Migrations\20230613160134_AddTournametTables.cs" />
+    <Compile Remove="Migrations\20230613160134_AddTournametTables.Designer.cs" />
+    <Compile Remove="Migrations\20230613160333_AddTournametTables.cs" />
+    <Compile Remove="Migrations\20230613160333_AddTournametTables.Designer.cs" />
+    <Compile Remove="Migrations\20230613170707_AddTournamentTables.cs" />
+    <Compile Remove="Migrations\20230613170707_AddTournamentTables.Designer.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="Microsoft.AspNetCore" Version="2.1.7" />
     <PackageReference Include="Microsoft.AspNetCore.App" />
     <PackageReference Include="Microsoft.AspNetCore.Mvc" Version="2.1.3" />

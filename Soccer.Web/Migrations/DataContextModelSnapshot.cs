@@ -32,7 +32,7 @@ namespace Soccer.Web.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("Teams");
+                    b.ToTable("TeamEntity");
                 });
 #pragma warning restore 612, 618
         }
